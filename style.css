@@ -1,0 +1,122 @@
+
+
+.navtext{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+.navbar-brand{
+  color: #00FA9A;
+  font-weight: bold;
+  font-size: 24px;
+}
+.headerimg{
+  border-radius:50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.headertext{
+  color: white;
+}
+.aboutme{
+  padding-top: 40px;
+  margin-bottom: 30px;
+
+}
+
+.aboutmetext{
+   border-right:solid;
+   border-color: black;
+   border-width: 1px;
+}
+.tab-content{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tabtext{
+  font-size: 25px !important;
+  color: black;
+
+}
+.intabtext{
+  font-size: 25px;
+}
+.portfolioimg {
+  cursor: pointer!important; }
+.portback{
+  background-color: #203737;
+  padding-top: 30px;
+  padding-bottom: 202px;
+}
+.jumbotron{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Panorama_skyline_Toronto_2010.jpg);
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+.modal-body{
+  background-color: white;
+}
+.img-responsive{
+  border-radius: 5%;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+.modal-header{
+  color: white;
+}
+.close{
+  color: white !important;
+}
+.modal-header, .modal-footer{
+  background-color: #172727;
+}
+.footer{
+  position: static;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#contactme{
+  padding-top:50px;
+  padding-bottom: 113px;
+
+}
+i{
+  margin: 0px 5px 0px 5px;
+}
+
+h3 b, h2 b {
+  color: white;
+}
+
+#pageload{
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,8)
+              url('http://i.stack.imgur.com/FhHRx.gif')
+              50% 50%
+              no-repeat
+}
+body.loading{
+  overflow: hidden;
+}
+
+body.loading #pageload{
+  display: block;
+}
