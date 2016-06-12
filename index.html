@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Newton Xu</title>
+	<meta name="description" content="Hello World">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!--Angular-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+<div class="wrapper">
+<header>
+		<div class="navbar navbar-default navbar-fixed-top" style="background-color: black">
+			<div class="container">
+  				<div class="navbar-header">
+					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+					    </button>
+					    <a href="" class="navbar-brand">Newton Xu</a>
+				  </div>
+
+				<div class="collapse navbar-collapse navbar-right" id="example">
+					<ul class="nav navbar-nav" >
+						<li id="aboutli" class="active"><a href="#about" class="navtext" id="aboutLoad">About Me</a></li>
+						<li id="portfolioli"><a href="#portfolio" class="navtext" id="portfolioLoad">Portfolio</a></li>
+						<li id="contactli" ><a href="#contactme" class="navtext" id="contactLoad">Contact Me</a></li>
+					</ul>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+	</header>
+<!--Jumbotron-->
+
+<div class="jumbotron text-center" id="jumbotron">
+<div class = "container-fluid" style="padding-top:236px" >
+    <img class="headerimg" style="padding-top:" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAPJAAAAJDVjOGRhMDA2LWQ5ZWYtNGI0MS1hNWI5LTVmNDYyZGEyNWQ0ZQ.jpg">
+    <h1 class="headertext" style="color: white">Newton Xu</h1>
+  </div>
+</div>
+
+<!--About Me-->
+<div class="container" id="about">
+
+	<ul class="nav nav-pills nav-justified" >
+		<li class="active"><a class="tabtext" href="#myself" data-toggle="tab">About Me</a></li>
+		<li><a class="tabtext" href="#skills" data-toggle="tab">My skills</a></li>
+	</ul>
+	<br>
+	<div class="tab-content">
+		<div class="tab-pane fade in active"  id="myself">
+			<div class="row">
+				<div class="col-xs-4"><img src="http://www.engineering.utoronto.ca/wp-content/blogs.dir/28/files/2015/03/FASE-Signature-2010.png"></div>
+				<div class="col-xs-offset-2 col-xs-6"><p class="intabtext" style="font-size: 25px;">I am attending the Engineering Science program at the University of Toronto and graduating in 2019. I aspire to become a roboticist in the future!</p></div>
+			</div>
+
+		</div>
+		<div class="tab-pane fade text-left"  id="skills">
+			<div class="row">
+				<div class="col-xs-offset-2 col-xs-10">
+					<ul style="list-style-type:none">
+					<li class="intabtext"><span class="glyphicon glyphicon-ok" style ="color:green"></span>  Web development with HTML, CSS, Bootstrap, jQuery, and Javascript</li>
+					<li class="intabtext"><span class="glyphicon glyphicon-ok" style ="color:green"></span>  Algorithms and Data Structures in Python and C</li>
+					<li class="intabtext"><span class="glyphicon glyphicon-ok" style ="color:green; margin-bottom:-10px;"></span>  Familiar with MATLAB, Excel and Microsoft Office</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br>
+<!--Portfolo-->
+
+ <div class="hidden  portback" id="portfolio">
+  <div class="container-fluid text-center" >
+
+
+  <h2 ><b>Portfolio</b></h2>
+
+  <hr>
+  <div class="row">
+	  <div class="col-lg-3">
+      <h3><b>DECA website</b></h3>
+      <img data-toggle="modal" data-target="#modal-1" class="img-responsive" src="deca.jpg">
+			<div class="modal fade" id="modal-1">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						 <div class="modal-header">
+						 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+						 	<h3 class="modal-title">DECA website</h3>
+						 </div>
+						 <div class="modal-body">
+							 <div class="row">
+								 <div class="col-xs-8">
+										<img class="img-responsive" src="deca.jpg">
+								 </div>
+								 <div class="col-xs-4 text-center">
+									 <h3><u>What is this?</u></h3>
+									 <p>A fully responsive website built for a school club. Currently no longer updated.</p>
+
+									 <h3><u>What did I use?</u></h3>
+									 <p>HTML/CSS</p>
+									 <p>Bootstrap</p>
+								 </div>
+							 </div>
+						 </div>
+
+						 <div class="modal-footer">
+							  <a href="http://newtonxu.github.io/Earl-Haig-DECA/" class="btn btn-info" target="_blank">Check this out</a>
+						 		<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+						 </div>
+					</div>
+				</div>
+			</div>
+    </div>
+
+		<div class="col-lg-3">
+      <h3><b>Pomodoro Clock</b></h3>
+      <img data-toggle="modal" data-target="#modal-2" class="img-responsive" src="pomodoro.jpg">
+			<div class="modal fade" id="modal-2">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						 <div class="modal-header">
+						 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+						 	<h3 class="modal-title">Pomodoro Clock</h3>
+						 </div>
+						 <div class="modal-body">
+							 <div class="row">
+								 <div class="col-xs-8">
+										<img class="img-responsive" src="pomodoro.jpg">
+								 </div>
+								 <div class="col-xs-4">
+									 <h3><u>What is this?</u></h3>
+									 <p>A productivity clock which alternates between toggleable break and work sessions</p>
+
+									 <h3><u>Tools used</u></h3>
+									 <p>HTML/CSS</p>
+									 <p>Bootstrap</p>
+									 <p>Javascript</p>
+									 <p>jQuery</p>
+
+								 </div>
+							 </div>
+						 </div>
+
+						 <div class="modal-footer">
+							 <a href="http://codepen.io/NewtonXu/full/MewGLa/" class="btn btn-info" target="_blank">Check this out</a>
+						 		<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+
+						 </div>
+					</div>
+				</div>
+			</div>
+    </div>
+
+    <div class="col-lg-3">
+          <h3><b>Calculator</b></h3>
+					<img data-toggle="modal" data-target="#modal-3" class="img-responsive" src="calculator.jpg">
+					<div class="modal fade" id="modal-3">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								 <div class="modal-header">
+								 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+								 	<h3 class="modal-title">Calculator</h3>
+								 </div>
+								 <div class="modal-body">
+									 <div class="row">
+ 	 								 <div class="col-xs-8">
+ 	 										<img class="img-responsive" src="calculator.jpg">
+ 	 								 </div>
+ 	 								 <div class="col-xs-4">
+ 	 									 <h3><u>What is this?</u></h3>
+ 	 									 <p>Javascript calculator with basic functionality</p>
+
+ 	 									 <h3><u>Tools used</u></h3>
+ 	 									 <p>HTML/CSS</p>
+										 <p>Bootstrap</p>
+										 <p>Javascript</p>
+										 <p>jQuery</p>
+ 	 								 </div>
+ 	 							 </div>
+								 </div>
+
+								 <div class="modal-footer">
+									 <a href="http://codepen.io/NewtonXu/full/GqJryr/" class="btn btn-info" target="_blank">Check this out</a>
+								 		<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+								 </div>
+							</div>
+						</div>
+					</div>
+    </div>
+
+    <div class="col-lg-3">
+          <h3><b>Twitch Stream Viewer</b></h3>
+					<img data-toggle="modal" data-target="#modal-4" class="img-responsive" src="twitch.jpg">
+					<div class="modal fade" id="modal-4">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								 <div class="modal-header">
+								 	<button type="button" class="close" data-dismiss="modal">&times;</button>
+								 	<h3 class="modal-title">Twitch Stream Viewer</h3>
+								 </div>
+								 <div class="modal-body">
+									 <div class="row">
+ 	 								 <div class="col-xs-8">
+ 	 										<img class="img-responsive" src="twitch.jpg">
+ 	 								 </div>
+ 	 								 <div class="col-xs-4">
+ 	 									 <h3><u>What is this?</u></h3>
+ 	 									 <p>Twitch stream viewer with a selection of featured streamers. Displays their current status and the game they are playing.</p>
+
+ 	 									 <h3><u>Tools used</u></h3>
+ 	 									 <p>HTML/CSS</p>
+										 <p>Bootstrap</p>
+										 <p>Javascript</p>
+										 <p>jQuery</p>
+										 <p>Twitch API</p>
+ 	 								 </div>
+ 	 							 </div>
+								 </div>
+
+								 <div class="modal-footer">
+									 <a href="http://codepen.io/NewtonXu/full/jrOxoM/" class="btn btn-info" target="_blank">Check this out</a>
+								 		<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+								 </div>
+							</div>
+						</div>
+					</div>
+  		</div>
+
+</div>
+<br>
+<div class="row">
+<div class="col-lg-3">
+	<h3><b>Wikipedia Viewer</b></h3>
+	<img data-toggle="modal" data-target="#modal-5" class="img-responsive" src="wiki.jpg">
+	<div class="modal fade" id="modal-5">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				 <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">This is the heading</h3>
+				 </div>
+				 <div class="modal-body">
+					 <div class="row">
+						 <div class="col-xs-8">
+								<img class="img-responsive" src="wiki.jpg">
+						 </div>
+						 <div class="col-xs-4">
+							 <h3><u>What is this?</u></h3>
+							 <p>Simple interface for searching Wikipedia</p>
+
+							 <h3><u>Tools used</u></h3>
+							 <p>HTML/CSS</p>
+							 <p>Bootstrap</p>
+							 <p>Javascript</p>
+							 <p>jQuery</p>
+							 <p>Wikimedia API</p>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="modal-footer">
+					  <a href="http://codepen.io/NewtonXu/full/KMKqjO/" class="btn btn-info" target="_blank">Check this out</a>
+						<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-lg-3">
+	<h3><b>Quote Generator</b></h3>
+	<img data-toggle="modal" data-target="#modal-6" class="img-responsive" src="quotes.jpg">
+	<div class="modal fade" id="modal-6">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				 <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">Random quote generator</h3>
+				 </div>
+				 <div class="modal-body">
+					 <div class="row">
+						 <div class="col-xs-8">
+								<img class="img-responsive" src="quotes.jpg">
+						 </div>
+						 <div class="col-xs-4">
+							 <h3><u>What is this?</u></h3>
+							 <p>Press a button to get a random design quote. Tweet your quote on Twitter!</p>
+
+							 <h3><u>Tools used</u></h3>
+							 <p>HTML/CSS</p>
+							 <p>Bootstrap</p>
+							 <p>Javascript</p>
+							 <p>jQuery</p>
+							 <p>Quotegenerator API</p>
+							 <p>Twitter tweeter</p>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="modal-footer">
+					 	<a href="http://codepen.io/NewtonXu/full/zBOMBx/" class="btn btn-info" target="_blank">Check this out</a>
+						<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-lg-3">
+	<h3><b>Local weather app</b></h3>
+	<img data-toggle="modal" data-target="#modal-7" class="img-responsive" src="weather.jpg">
+	<div class="modal fade" id="modal-7">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				 <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">Local weather display</h3>
+				 </div>
+				 <div class="modal-body">
+					 <div class="row">
+						 <div class="col-xs-8">
+								<img class="img-responsive" src="weather.jpg">
+						 </div>
+						 <div class="col-xs-4">
+							 <h3><u>What is this?</u></h3>
+							 <p>Gives you the local temperature, toggeable between celcius and fahrenheit. Also gives the weather</p>
+
+							 <h3><u>Tools used</u></h3>
+							 <p>HTML/CSS</p>
+							<p>Bootstrap</p>
+							<p>Javascript</p>
+							<p>jQuery</p>
+							<p>Weather API</p>
+							<p>IP to Location API</p>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="modal-footer">
+					 	<a href="http://codepen.io/NewtonXu/full/OXJNJy" class="btn btn-info" target="_blank">Check this out</a>
+						<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+<div class="col-lg-3">
+	<h3><b>Project 1</b></h3>
+	<img data-toggle="modal" data-target="#modal-8" class="img-responsive" src="deca.jpg">
+	<div class="modal fade" id="modal-8">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				 <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h3 class="modal-title">This is the heading</h3>
+				 </div>
+				 <div class="modal-body">
+					 <div class="row">
+						 <div class="col-xs-8">
+								<img class="img-responsive" src="deca.jpg">
+						 </div>
+						 <div class="col-xs-4">
+							 <h3><u>What is this?</u></h3>
+							 <p> Filler text</p>
+
+							 <h3><u>Tools used</u></h3>
+							 <p> Filler text</p>
+						 </div>
+					 </div>
+				 </div>
+
+				 <div class="modal-footer">
+						<a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+						<a href="" class="btn btn-info" target="_blank">Check this out</a>
+				 </div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+</div>
+
+</div>
+</div>
+<!--Contact Me-->
+<div class="container text-center hidden"  id="contactme">
+  <div id="wufoo-z1ofufkt1pez2u0">
+Fill out my <a href="https://newtonxu.wufoo.com/forms/z1ofufkt1pez2u0">online form</a>.
+</div>
+
+<script type="text/javascript">var z1ofufkt1pez2u0;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'newtonxu',
+'formHash':'z1ofufkt1pez2u0',
+'autoResize':true,
+'height':'520',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z1ofufkt1pez2u0 = new WufooForm();z1ofufkt1pez2u0.initialize(options);z1ofufkt1pez2u0.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+</div>
+
+
+
+  <div class="container-fluid footer" style="background-color:black">
+    <br>
+    <div class="row">
+          <div class="col-xs-offset-4 col-xs-4 text-center">
+            	<a href="https://github.com/NewtonXu"><i class="fa fa-github-alt" style="font-size: 40px;"></i></a>
+
+              <a href="https://ca.linkedin.com/in/newton-xu-829745111"><i class="fa fa-linkedin-square" style="font-size: 40px;"></i></a>
+							<a href="http://codepen.io/NewtonXu/"><i class="fa fa-codepen" style="font-size: 40px;"></i></a>
+					</div>
+
+
+      </div>
+    </div>
+
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</div>
+<div class="modal" id="pageload"><!-- Place at bottom of page --></div>
+</body>
+</html>
