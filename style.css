@@ -1,3 +1,25 @@
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -90px; 
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+}
+.site-footer, .wrapper:after {
+  height: 90px; 
+}
+.site-footer {
+  background: orange;
+}
 
 
 .navtext{
@@ -51,7 +73,7 @@
 .portback{
   background-color: #203737;
   padding-top: 30px;
-  padding-bottom: 180px;
+  padding-bottom: 200px;
 }
 .jumbotron{
   background: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Panorama_skyline_Toronto_2010.jpg);
@@ -79,12 +101,6 @@
 }
 .modal-header, .modal-footer{
   background-color: #172727;
-}
-.footer{
-  position: static;
-  bottom: 0;
-  width: 100%;
-  padding-bottom: 20px;
 }
 
 #contactme{
