@@ -17,6 +17,11 @@
   <script src="script.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+</script>
+	
+	
 </head>
 
 
@@ -30,7 +35,7 @@
 					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
 						      <span class="icon-bar"></span>
 						      <span class="icon-bar"></span>
-      						<span class="icon-bar"></span>
+      						  <span class="icon-bar"></span>
 					    </button>
 					    <a href="" class="navbar-brand">Newton Xu</a>
 				  </div>
@@ -38,18 +43,17 @@
 				<div class="collapse navbar-collapse navbar-right" id="example">
 					<ul class="nav navbar-nav" >
 						<li id="aboutli" class="active"><a href="#about" class="navtext" id="aboutLoad">About Me</a></li>
+						<li id="resumeli"><a href="#resume" class ="navtext" id="resumeLoad">Resume</a></li>
 						<li id="portfolioli"><a href="#portfolio" class="navtext" id="portfolioLoad">Portfolio</a></li>
 						<li id="contactli" ><a href="#contactme" class="navtext" id="contactLoad">Contact Me</a></li>
 					</ul>
-
-
 				</div>
 			</div>
 		</div>
 
 
 
-	</header>
+</header>
 <!--Jumbotron-->
 
 <div class="jumbotron text-center" id="jumbotron">
@@ -70,8 +74,8 @@
 	<div class="tab-content">
 		<div class="tab-pane fade in active"  id="myself">
 			<div class="row">
-				<div class="col-xs-4"><img src="http://www.engineering.utoronto.ca/wp-content/blogs.dir/28/files/2015/03/FASE-Signature-2010.png"></div>
-				<div class="col-xs-offset-2 col-xs-6"><p class="intabtext" style="font-size: 25px;">I am attending the Engineering Science program at the University of Toronto and graduating in 2019. I aspire to become a roboticist in the future!</p></div>
+				<div class="col-xs-4 hidden-xs"><img src="http://www.engineering.utoronto.ca/wp-content/blogs.dir/28/files/2015/03/FASE-Signature-2010.png"></div>
+				<div class="col-xs-offset-2 col-xs-8 col-lg-6"><p class="intabtext" style="font-size: 25px;">I am attending the Engineering Science program at the University of Toronto and graduating in 2019. I aspire to become a roboticist in the future!</p></div>
 			</div>
 
 		</div>
@@ -89,6 +93,16 @@
 	</div>
 </div>
 
+<br>
+<!--Resume-->
+<div class="container text-center hidden" id="resume">
+<object height="950" data="Newton Xu - Technical Resume2.pdf" type="application/pdf" width="860" id="resume">
+  <p>It appears you don't have a PDF plugin for this browser.
+    You can <a href="Newton Xu - Technical Resume2.pdf">click here to
+    download my resume.</a>
+  </p>
+</object>
+</div>
 <br>
 <!--Portfolo-->
 
@@ -449,6 +463,6 @@ var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s
 			</div>
     </div>
 </footer>
-
+<div class="modal-load hidden"></div>
 </body>
 </html>
