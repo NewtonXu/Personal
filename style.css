@@ -82,7 +82,7 @@ html, body {
   padding-bottom: 190px;
 }
 .jumbotron{
-  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3f/Panorama_skyline_Toronto_2010.jpg);
+  background: url('jumbotronbackground.jpg');
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
